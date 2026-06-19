@@ -1,6 +1,7 @@
 syntax="proto3";
 
 
+
 option go_package = "github.com/babishagetaneh1992/commin/orders";
 
 
@@ -32,5 +33,5 @@ message GetOrderRequest {
 }
 
 message GetOrderResponse {
-    repated Order orders = 1;
+    repeated Order orders = 1;
 }
